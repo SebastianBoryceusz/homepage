@@ -1,0 +1,45 @@
+body {
+    background: #fefefe;    
+}
+section {
+   background:  #ffffff;
+}
+h1 {
+    color: darkred;
+}
+p {
+    color: #1d1285;
+}
+h2 {
+    color: #1460AA;
+}
+.special-header {
+    color: #21a179;
+}
+
+.header-link {
+    color: green;
+}
+.navigation {
+background:rgb(20, 190, 20) ;
+padding: 16px;
+border-radius: 8px;
+
+}
+.navigation__link {
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.week-summary {
+    padding: 16px;
+    border: 1px #ccc solid;
+    margin-bottom: 16px;
+}
+.week-summary__description {
+    color: #92140c;
+}
+.week-summary__title {
+    color: #21a179;
+}
