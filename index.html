@@ -16,25 +16,26 @@
         
     </header>
 
-    <main>
-    <header>
-       <h1>Maciek korsan - Strona domowa</h1> 
+    <main class="main">
+    <header class="mine__header" id="top">
+       <h1 class="main__heading main__heading--js" id="name">Maciek korsan - Strona domowarobiona w ramach WTF</h1> 
     </header>
     
-        <section>
-           <h2> Kim jestem?</h2>
-           <img src="korsan-header.jpg" alt="Uśmiechnięty Korsan">
-            <p>Hej! Ma co dzień uczę wspaniałych ludzi tajnej sztuki frontendu i pracuję w firmie o cięko zapisywalnej nazwie : EYEDEA.Prowadzę szkolenie <a href="https://cotenfrontend.pl">WTF</a>
-                <br>Poza tym bardzo <b>lubię robic zdjęcia i latać dronem. </b>Witam Cię na mojej stronie domowej, mam nadzieję, ze znajdziesz tu trochę przydatnych rzeczy.<a href="#notatki">Przejdz do notatek</a></p>
+        <section class="about">
+           <h2 class="about__heading"> Kim jestem?</h2>
+           <img class="about__picture" src="korsan-header.jpg" alt="Uśmiechnięty Korsan">
+            <p class="about__description">Hej! Ma co dzień uczę wspaniałych ludzi tajnej sztuki frontendu i pracuję w firmie o cięko zapisywalnej nazwie : EYEDEA.Prowadzę szkolenie <a class="about__link" href="https://cotenfrontend.pl">WTF</a>
+                <br>Poza tym bardzo <b>lubię robic zdjęcia i latać dronem. </b>Witam Cię na mojej stronie domowej, mam nadzieję, ze znajdziesz tu trochę przydatnych rzeczy.<a class="about__link" href="#notatki">Przejdz do notatek</a></p>
         </section>
 
-        <section id="notatki">
-            <h2 class="special-header">Notatki z WTF: Co ten frontendu</h2>
+        <section class="notes" id="notatki">
+            <h2 class="notes-heading">Notatki z WTF: Co ten frontendu</h2>
             <article class="week-summary">
                 <h3 class="week-summary__title">Odrabianie pracy domowej</h3>
-            <p class="week-summary__description">Poszło mi całkiem spoko :)</p>
+            <p class="week-summary__description">Poszło mi całkiem spoko :)</p> 
+            <p class="week-summary__description week-summary__description--js"></p>
         </article> 
-            <article class="week-summary">
+            <article class="week-summary week-summary--special">
                 <h3 class="week-summary__title">Jak stworzyć prawidłowego HTML-a?</h3>
             <p class="week-summary__description">Tworzenie zgodnego ze standardami HTML-a to sztuka, którą do perfekcji opanowało niewielu. Jeśli chcesz stać się częścią tej grupy, musisz wykazać się otwartą głową i duą ilością wolnego czasu...</p>
         </article>
@@ -47,8 +48,8 @@
            </section>
         
     </main>
-    <footer>
-        Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia skolenia WTF: Co ten frontend.
+    <footer class="footer">
+        Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia skolenia WTF: Co ten frontend. <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
     <script src="main.js"></script>
     
