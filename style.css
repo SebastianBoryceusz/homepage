@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     background: #fefefe;    
 }
@@ -72,4 +78,7 @@ border-radius: 8px;
     margin:  0 auto;
 }.footer__link {
    color: #1460aa;
+}
+.list {
+    list-style: square;
 }
